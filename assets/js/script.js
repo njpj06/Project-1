@@ -3,6 +3,7 @@ var definition = document.getElementById("definition");
 var wiki = document.getElementById("wiki");
 var btn = document.getElementById("btn");
 
+
 const wordOptions = {
     method: "GET",
     headers: {
@@ -23,7 +24,5 @@ fetch("https://wordsapiv1.p.rapidapi.com/words/?random=true", wordOptions)
             .then((response) => response.json())
             .then((response) => console.log(response));
             word.innerText = response.word
+            
 });
-
-
-
