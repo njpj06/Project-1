@@ -22,4 +22,8 @@ fetch("https://wordsapiv1.p.rapidapi.com/words/?random=true", wordOptions)
         fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${response.word}?key=ba8ba0ae-582d-43a4-8472-0c05e1fbde80`, dictionaryOptions)
             .then((response) => response.json())
             .then((response) => console.log(response));
+            word.innerText = response.word
 });
+
+
+
