@@ -62,7 +62,11 @@
 
 #btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #F29C6B;
+    background-color: #F29C6B;
+}
+
+#btn:active {
+    background-color: #A69797;
 }
 
 .footer {
