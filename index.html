@@ -8,17 +8,18 @@
     <title>Random Word Generator</title>
   </head>
   <body>
-    <header id="header">
+    <header class="header">
       <h2>Random Word Generator!</h2>
     </header>
-    <div>
+    <div class="main">
+      <p id="text">Click for New Word!</p>
       <h1 id="word"></h1>
-      <p>
-        <h2 id="definition"></h2>
-      </p>
+      <p id="definition"></p>
+      <div id="wiki"></div>
+      <button id="btn" onclick="document.location.reload()">Click Here!</button>
     </div>
     <div id="wiki" ></div>
-    <button id="btn" onclick="document.location.reload()">Click for New Word!</button>
+    <footer class="footer">MSU Coding Bootcamp - Group 7</footer>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
