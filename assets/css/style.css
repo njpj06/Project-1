@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
-    background-color: #D1E8F4;
+    background-color: #F2EC94;
 }
 
 * {
@@ -12,44 +12,72 @@
     font-family: 'Lato', sans-serif;
 }
 
-#main {
-    background-color: #F5FBFF;
-    margin: 0 auto;
-    padding: 300px;
-    width: 100%;
+.header {
+    color: white;
+    background-color: #295FA6;
+    font-size: 35px;
+    height: 5rem;
+    left: 0;
+    padding: 1rem;
+    position: fixed;
     text-align: center;
-    border-radius: 20px;
+    top: 0;
+    width: 100%;
 }
 
-#header {
-    color: black;
-    font-size: 4.0rem;
-    display: flex;
+.main {
     justify-content: center;
-    align-items: center;
-    padding: 15px;
+    text-align: center;
+    padding: 12%;
+}
+
+#text {
+    color: #295FA6;
+    font-size: 20px;
+    padding-bottom: 25px;
+    font-weight: 900;
+}
+
+#word {
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+#definition {
+    font-size: medium;
+    color: rgb(78, 78, 78);
+    font-weight: bolder;
+    padding-bottom: 30px;
 }
 
 #btn {
-    font-size: 1.4rem;
-    padding: 1rem 0;
-    width: 15rem;
-    outline-style: none;
-    text-decoration: none;
+    border: 0;
+    width: 150px;
+    height: 28px;
+    font-size: 16px;
+    border-radius: 30px;
     color: white;
-    background: #809AA8;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    background-color: #F25050;
 }
 
 #btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #D3E9F5;
+    box-shadow: 0 0.4rem 1.4rem 0 #F29C6B;
 }
 
+.footer {
+    color: white;
+    font-size: medium;
+    background-color: #F25050;
+    height: 5rem;
+    justify-content: center;
+    position: fixed;
+    padding: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
 
 @media only screen and (min-width: 768px) {
     body {
@@ -61,6 +89,10 @@
     }
 
     ol {
+        margin-left: 40px;
+        font-size: 1.5rem;
+    }
+}
         margin-left: 40px;
         font-size: 1.5rem;
     }
