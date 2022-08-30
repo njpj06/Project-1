@@ -27,5 +27,7 @@ fetch("https://wordsapiv1.p.rapidapi.com/words/?random=true", wordOptions)
             })),
             word.innerText = response.word;
             })
+
+            
             
 
