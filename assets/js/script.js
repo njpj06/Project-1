@@ -22,12 +22,14 @@ fetch("https://wordsapiv1.p.rapidapi.com/words/?random=true", wordOptions)
             .then((response) => response.json()
             .then((response) => {
             console.log(response);
-            const data = response;
+            const data = response[0].shortdef;
             definition.innerText = data;
             })),
             word.innerText = response.word;
             })
 
-            
+if (data = undefined) {
+definition.innerText = "No definition for this one! 😔"
+};
             
 
