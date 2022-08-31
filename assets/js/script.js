@@ -36,8 +36,8 @@ fetch("https://wordsapiv1.p.rapidapi.com/words/?random=true", wordOptions)
                 };
             })),
             //Randomly generated word displaying on page
-            word.innerText = response.word;
-            })
+    word.innerText = response.word;
+    })
 
             
 
