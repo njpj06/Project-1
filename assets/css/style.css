@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* Background Color */
 :root {
     background-color: #F2EC94;
 }
@@ -12,6 +13,7 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* Header */
 .header {
     color: white;
     background-color: #295FA6;
@@ -25,12 +27,14 @@
     width: 100%;
 }
 
+/* Main Section */
 .main {
     justify-content: center;
     text-align: center;
     padding: 12%;
 }
 
+/* "Click for New Word" */
 #text {
     color: #295FA6;
     font-size: 20px;
@@ -38,21 +42,21 @@
     font-weight: 900;
 }
 
+/* Random Word */
 #word {
     padding-bottom: 30px;
     font-size: 35px;
 }
 
+/* Definition for Random Word */
 #definition {
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(78, 78, 78);
     font-weight: bolder;
     padding-bottom: 30px;
 }
 
-#h3 {
-    font-size: 18px;
-}
+/* Button */
 #btn {
     border: 0;
     width: 150px;
@@ -72,6 +76,7 @@
     background-color: #A69797;
 }
 
+/* Footer */
 .footer {
     color: white;
     font-size: medium;
@@ -90,7 +95,6 @@
     body {
         padding: 20px;
     }
-
     h1 {
         font-size: 2rem;
     }
