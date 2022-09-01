@@ -1,4 +1,4 @@
-# Project-1
+# Random Word Generator
 
 # About
 At the click of a button, this website produces a random word with its definition! The instructions for this website are as follows: When the user clicks the "Click Here!" button, a random word is generated and displayed along with its current definition. If the word selected does not have a definition, the phrase "No definition for this one! 😔" will appear. When the page is refreshed, the word with it's definition changes. This website uses Words API and a Dictionary API to get these results.
