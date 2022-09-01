@@ -9,11 +9,8 @@ At the click of a button, this website produces a random word with its definitio
 - JAVASCRIPT
 
 # API's
-1. WordsAPI
-https://www.wordsapi.com/
-
-2. Dictionary API
-https://dictionaryapi.com/account/example?key=ba8ba0ae-582d-43a4-8472-0c05e1fbde80
+1. WordsAPI: https://www.wordsapi.com/
+2. Dictionary API: https://dictionaryapi.com/account/example?key=ba8ba0ae-582d-43a4-8472-0c05e1fbde80
 
 # Link to Website!
 https://njpj06.github.io/Random-Word-Generator/
